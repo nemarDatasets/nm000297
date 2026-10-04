@@ -1,0 +1,41 @@
+{
+    "Name": "WRCC2023-MI-A",
+    "BIDSVersion": "1.9.0",
+    "HEDVersion": "8.4.0",
+    "DatasetType": "derivative",
+    "License": "CC0-1.0",
+    "Authors": [
+        "WRCC2023"
+    ],
+    "ReferencesAndLinks": [
+        "https://doi.org/10.7910/DVN/J9JFES"
+    ],
+    "Keywords": [
+        "motor imagery",
+        "BCI",
+        "brain-computer interface",
+        "EEG",
+        "World Robot Contest",
+        "WRCC2023",
+        "left hand",
+        "right hand",
+        "feet",
+        "stroke"
+    ],
+    "DatasetDOI": "doi:10.7910/DVN/J9JFES",
+    "GeneratedBy": [
+        {
+            "CodeURL": "https://github.com/NeuroTechX/moabb",
+            "Name": "moabb",
+            "Description": "Mother of All BCI Benchmarks",
+            "Version": "1.8.0dev0"
+        }
+    ],
+    "SourceDatasets": [
+        {
+            "DOI": "10.7910/DVN/J9JFES",
+            "URL": "https://doi.org/10.7910/DVN/J9JFES"
+        }
+    ],
+    "PublicationYear": 2024
+}
