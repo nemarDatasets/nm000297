@@ -1,9 +1,39 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "WRCC2023_MI_A: WRCC2023 MI-A three-class motor imagery dataset",
+  "description": "Three-class motor imagery EEG dataset (left hand, right hand, feet) from the 2023 World Robot Contest BCI competition (MI-A track). It contains 59-channel, 1000 Hz recordings from 9 participants, two of whom are stroke patients, with 90 cued 4 s imagery trials per subject (30 per class). This BIDS version was generated with MOABB from the Harvard Dataverse source deposit and includes HED event annotations.",
+  "methods_description": "EEG was recorded with a Neuracle 64-channel wireless system (59 EEG channels, 10-10 montage, 1000 Hz sampling rate). Participants performed cue-based, offline motor imagery of left-hand grasping, right-hand grasping, and foot hooking, with no feedback. Each of the 90 trials per subject was stored as a 4 s epoch and exposed as a separate run.",
+  "license": "CC0-1.0",
+  "dataset_type": "derivative",
   "authors": {
     "WRCC2023": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "BCI competition"
+    },
+    {
+      "term": "Stroke",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D020521"
+    },
+    {
+      "term": "World Robot Contest"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.7910/DVN/J9JFES",
@@ -31,14 +61,11 @@
       "relation_type": "References"
     }
   ],
-  "title": "WRCC2023-MI-A",
-  "license": "CC0-1.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "377 MB (811 files)"
   ],
@@ -46,34 +73,8 @@
     ".edf",
     ".json",
     ".tsv",
-    ".yaml"
+    ".yaml",
+    ".yml"
   ],
-  "description": "A three-class motor imagery EEG dataset (left hand, right hand, feet) from the MI-A task of the 2023 World Robot Contest BCI competition. It includes 9 participants, two of whom are stroke patients, each completing 90 cued imagery trials (30 per class) recorded with a 59-channel wireless EEG system at 1000 Hz. This is a BIDS-formatted derivative produced with MOABB from the Harvard Dataverse deposit.",
-  "methods_description": "EEG was recorded with a Neuracle 64-channel wireless system (59 EEG channels, 10-10 montage) at 1000 Hz. Participants performed cue-based, offline motor imagery of left-hand grasping, right-hand grasping, and foot hooking. Each trial was stored as a 4 s imagery epoch, with 90 trials per subject and no feedback.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "motor imagery"
-    },
-    {
-      "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
-    },
-    {
-      "term": "Stroke",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D020521"
-    },
-    {
-      "term": "World Robot Contest"
-    },
-    {
-      "term": "BCI competition"
-    }
-  ],
-  "source_hash": "da02bc3e817da8ec610467c079be8705d79316a8369a94e6253fb3d40be8061d"
+  "source_hash": "b650d7a5c96ea4b4713d88a2bd18fa5a7b95ad844a1773c41e81d52ae9fc8c71"
 }
