@@ -1,5 +1,5 @@
 {
-    "Name": "WRCC2023-MI-A",
+    "Name": "WRCC2023_MI_A: WRCC2023 MI-A three-class motor imagery dataset",
     "BIDSVersion": "1.9.0",
     "HEDVersion": "8.4.0",
     "DatasetType": "derivative",
@@ -37,5 +37,8 @@
             "URL": "https://doi.org/10.7910/DVN/J9JFES"
         }
     ],
-    "PublicationYear": 2024
+    "PublicationYear": 2024,
+    "EthicsApprovals": [
+        "See the primary publication cited in the README/ReferencesAndLinks for the ethics approval statement obtained by the original investigators; no new human-subject data were collected for this BIDS re-release."
+    ]
 }
