@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "WRCC2023_MI_A: WRCC2023 MI-A three-class motor imagery dataset",
-  "description": "Three-class motor imagery EEG dataset (left hand, right hand, feet) from the 2023 World Robot Contest BCI competition (MI-A track). It contains 59-channel, 1000 Hz recordings from 9 participants, two of whom are stroke patients, with 90 cued 4 s imagery trials per subject (30 per class). This BIDS version was generated with MOABB from the Harvard Dataverse source deposit and includes HED event annotations.",
-  "methods_description": "EEG was recorded with a Neuracle 64-channel wireless system (59 EEG channels, 10-10 montage, 1000 Hz sampling rate). Participants performed cue-based, offline motor imagery of left-hand grasping, right-hand grasping, and foot hooking, with no feedback. Each of the 90 trials per subject was stored as a 4 s epoch and exposed as a separate run.",
+  "description": "A three-class motor imagery EEG dataset (left hand, right hand, feet) from the MI-A track of the 2023 World Robot Contest BCI competition. It includes recordings from nine participants, two of whom are stroke patients, with 90 cued 4-second imagery trials each (30 per class). Data were acquired at 1000 Hz from 59 EEG channels using a Neuracle wireless system and re-released in BIDS format with HED annotations via MOABB.",
+  "methods_description": "Cue-based offline motor imagery paradigm with left-hand grasping, right-hand grasping and foot hooking imagery. Each subject performed 90 trials (30 per class), stored as 4 s epochs. EEG was recorded with a Neuracle 64-channel wireless amplifier (59 EEG channels, 10-10 montage) at 1000 Hz, with 50 Hz line frequency.",
   "license": "CC0-1.0",
   "dataset_type": "derivative",
   "authors": {
@@ -11,7 +11,9 @@
   },
   "keywords": [
     {
-      "term": "EEG"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
       "term": "motor imagery"
@@ -21,9 +23,6 @@
       "subject_scheme": "MeSH",
       "scheme_uri": "https://id.nlm.nih.gov/mesh/",
       "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
-    },
-    {
-      "term": "BCI competition"
     },
     {
       "term": "Stroke",
@@ -67,14 +66,15 @@
     "eeg"
   ],
   "sizes": [
-    "377 MB (811 files)"
+    "1.79 GB (821 files)"
   ],
   "formats": [
     ".edf",
     ".json",
+    ".md",
     ".tsv",
     ".yaml",
     ".yml"
   ],
-  "source_hash": "b650d7a5c96ea4b4713d88a2bd18fa5a7b95ad844a1773c41e81d52ae9fc8c71"
+  "source_hash": "624cc279be5a989ae343caed60a775f6c59bbea6f73331487a28c10ebe58a816"
 }
